@@ -48,7 +48,7 @@ In this project, I configured osTicket by managing user roles, departments, and 
 ## Configuration Steps
 
 ### 1) Configuring Roles
-Login to your Admin account using this link: `http://localhost/osTicket/scp/login.php`. Switch to the **Admin Panel** and navigate to **Agents -> Roles** to create and manage roles. Then create a "Supreme Admin" role.
+Login to your Admin account using this link: `http://localhost/osTicket/scp/login.php`. Switch to the **Admin Panel** and navigate to **Agents -> Roles** to create and manage roles. Then create a **"Supreme Admin"** role.
 
 ![Capture4](https://github.com/user-attachments/assets/dd2138d1-4b9f-4de2-8d8e-f80f112f195d)
 
@@ -60,7 +60,7 @@ Login to your Admin account using this link: `http://localhost/osTicket/scp/logi
 
 
 ### 2) Configuring Departments
-Go to **Agents -> Departments** and click **Add New Department**. Fill in the relevant department information to create a SysAdmins department and click **Create Dept**.
+Go to **Agents -> Departments** and click **Add New Department**. Fill in the relevant department information to create a **SysAdmins** department and click **Add Dept**.
 
 ![Capture6](https://github.com/user-attachments/assets/8fe29b7d-ba72-4483-835a-44728a9cb566)
 
@@ -98,14 +98,16 @@ In the Admin Panel, go to **Manage -> SLA** and click **Add New SLA Plan**. Defi
 - **Sev-B:** Grace Period: 4 hours, Schedule: 24/7
 - **Sev-C:** Grace Period: 8 hours, Schedule: Business Hours
 
-![Adding SLA](https://i.imgur.com/B2CFz7s.png)
-![SLA Details](https://i.imgur.com/h7c9392.png)
+![Capture9](https://github.com/user-attachments/assets/90cd5d21-2959-48a4-bb69-431c21cc8695)
+
 
 ### 8) Creating Help Topics
 Go to **Manage -> Help Topics** and click **Add New Help Topic**. Define help topics to organize incoming tickets.
+I created **Equipment Request, Other, Business Critical Outage, Password Reset, and Personal Computer Issues!**
 
-![Creating Help Topics](https://i.imgur.com/xBiVw0n.png)
-![Help Topic Details](https://i.imgur.com/wsDdFdc.png)
+![Capture10](https://github.com/user-attachments/assets/da9211a2-9a97-47c3-8659-d94a18c60ded)
+
+****This concludes our osTicket Post-Installation Process! Congratulations, and I hope this guide helped!****
 
 ## Key Takeaways and Skills Developed
 
@@ -123,6 +125,5 @@ Go to **Manage -> Help Topics** and click **Add New Help Topic**. Define help to
 - **Customer Service Orientation:** Setting user roles and ticket permissions highlights how IT professionals can improve customer interactions.
 - **Documentation and Reporting:** Familiarity with detailed system configuration fosters better system documentation and reporting practices.
 
-This concludes our osTicket Post-Installation Process! Congratulations, and I hope this guide helped!
 
-In this project, I configured osTicket by managing user roles, departments, and ticket settings. I set up roles to group permissions, defined departments for ticket visibility, and created teams by combining agents from different departments. I required user registration before ticket creation, added agents and users, and set up SLAs for different severity levels. Additionally, I created help topics to categorize tickets. This hands-on experience helped me learn to manage user roles, workflows, and settings in a ticketing system to improve help desk efficiency.
+

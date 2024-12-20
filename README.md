@@ -48,38 +48,49 @@ In this project, I configured osTicket by managing user roles, departments, and 
 ## Configuration Steps
 
 ### 1) Configuring Roles
-Login to your Admin account using this link: `http://localhost/osTicket/scp/login.php`. Switch to the **Admin Panel** and navigate to **Agents -> Roles** to create and manage roles.
+Login to your Admin account using this link: `http://localhost/osTicket/scp/login.php`. Switch to the **Admin Panel** and navigate to **Agents -> Roles** to create and manage roles. Then create a "Supreme Admin" role.
 
-![Configuring Roles](https://i.imgur.com/4YWjpPw.png)
+![Capture4](https://github.com/user-attachments/assets/dd2138d1-4b9f-4de2-8d8e-f80f112f195d)
+
+
+
+
+
+
+
 
 ### 2) Configuring Departments
-Go to **Agents -> Departments** and click **Add New Department**. Fill in the relevant department information and click **Create Dept**.
+Go to **Agents -> Departments** and click **Add New Department**. Fill in the relevant department information to create a SysAdmins department and click **Create Dept**.
 
-![Adding Departments](https://i.imgur.com/DUSkjV2.png)
+![Capture6](https://github.com/user-attachments/assets/8fe29b7d-ba72-4483-835a-44728a9cb566)
+
 ![Department Details](https://i.imgur.com/4opS7aY.png)
 
 ### 3) Configuring Teams
 Select **Agents -> Teams** and click **Add New Team** to categorize employees by teams such as Online Banking or IT Support.
 
 
-![Creating Teams](https://i.imgur.com/beJJui0.png)
-![Team Details](https://i.imgur.com/sC7KfIB.png)
+![3](https://github.com/user-attachments/assets/9420fbae-df62-4a71-a6cd-4def5728fdf3)
+
+
 
 ### 4) Ticket Permission
 Navigate to **Settings -> User Settings** in the Admin Panel and **uncheck** the option "Require registration and login to create tickets." Click **Save Changes**.
+This allows **unregistered users** to be able to create tickets.
 
-![Ticket Permissions](https://i.imgur.com/Aiy83sH.png)
 
 ### 5) Configuring Agents
-In the Admin Panel, go to **Agents -> Add New Agent**. Create agents, assigning appropriate roles, access, and team memberships.
+In the Admin Panel, go to **Agents -> Add New Agent**. Create agents, assigning appropriate roles, access, and team memberships. I've created **Jane and John Doe**
 
-![Adding Agents](https://i.imgur.com/eTNky7o.png)
-![Agent Details](https://i.imgur.com/djXrSwE.png)
+![Capture2](https://github.com/user-attachments/assets/8e34b8c9-b8d7-4d30-a38b-06c58a417a44)
+
 
 ### 6) Adding New Users
-Switch to the **Agent Panel** and go to **Users -> Add User** to create user accounts for clients or employees.
+Switch to the **Agent Panel** and go to **Users -> Add User** to create user accounts for clients or employees. **I've added Karen as our user.**
 
-![Adding Users](https://i.imgur.com/aYjjVS4.png)
+![Capture](https://github.com/user-attachments/assets/f32b6e1d-7b26-4e54-8738-6ac06ff9a1ef)
+
+
 
 ### 7) Configuring SLA's (Service Level Agreements)
 In the Admin Panel, go to **Manage -> SLA** and click **Add New SLA Plan**. Define SLA levels:

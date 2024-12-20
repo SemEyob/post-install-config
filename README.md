@@ -1,10 +1,31 @@
 
 
+
 # osTicket - Post-Install Configuration
 
 ![osTicket logo](https://i.imgur.com/Clzj7Xs.png)
 
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.
+
+## Key Takeaways and Skills Developed
+
+### **Technical Skills:**
+- **System Administration:** Learned how to configure system roles, departments, and teams to streamline IT operations.
+- **User Management:** Gained experience adding and managing users, a key responsibility in IT helpdesk environments.
+- **Service Level Agreements (SLA):** Developed an understanding of setting up and applying SLA policies for ticket prioritization.
+- **Helpdesk Ticketing Workflow:** Practiced configuring help topics and permissions, ensuring smooth ticket management.
+
+### **Problem-Solving Skills:**
+- **Issue Prioritization:** Understanding ticket management policies helps with effectively troubleshooting and resolving IT issues.
+- **Team Collaboration:** Learned how to assign agents and create specialized teams for improved service response.
+
+### **Professional Skills:**
+- **Customer Service Orientation:** Setting user roles and ticket permissions highlights how IT professionals can improve customer interactions.
+- **Documentation and Reporting:** Familiarity with detailed system configuration fosters better system documentation and reporting practices.
+
+
+In this project, I configured osTicket by managing user roles, departments, and ticket settings. I set up roles to group permissions, defined departments for ticket visibility, and created teams by combining agents from different departments. I required user registration before ticket creation, added agents and users, and set up SLAs for different severity levels. Additionally, I created help topics to categorize tickets. This hands-on experience helped me learn to manage user roles, workflows, and settings in a ticketing system to improve help desk efficiency.
+
 
 ## Environments and Technologies Used
 - Microsoft Azure (Virtual Machines/Compute)
@@ -39,6 +60,7 @@ Go to **Agents -> Departments** and click **Add New Department**. Fill in the re
 
 ### 3) Configuring Teams
 Select **Agents -> Teams** and click **Add New Team** to categorize employees by teams such as Online Banking or IT Support.
+
 
 ![Creating Teams](https://i.imgur.com/beJJui0.png)
 ![Team Details](https://i.imgur.com/sC7KfIB.png)
